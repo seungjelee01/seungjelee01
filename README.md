@@ -34,7 +34,7 @@
   </a>
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=JerryLee&show_icons=true&theme=great-gatsby" alt="GitHub Stats" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Jerry&show_icons=true&theme=great-gatsby" alt="GitHub Stats" height="150" />
   <a href="https://solved.ac/lsjsos/">
     <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=lsjsos" alt="Solved.ac Profile" height="150" />
   </a>
