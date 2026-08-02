@@ -42,21 +42,4 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=seungjelee01&theme=github-dark&hide_border=true" height="160" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=seungjelee01&theme=github_dark" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=seungjelee01&theme=github_dark" height="160" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=seungjelee01&theme=github_dark" height="160" />
-</p>
-
 <br/>
-
-<h2 align="center">Problem Solving</h2>
-
-<p align="center">
-  <a href="https://solved.ac/seungjelee01/">
-    <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=seungjelee01" height="150" />
-  </a>
-</p>
