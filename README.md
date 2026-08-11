@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-  Building software across interactive clients, real-time communication,<br/>
-  web services, and AI-assisted engineering workflows.
+  Building software across interactive applications, real-time systems,<br/>
+  backend services, and engineering workflows.
 </p>
 
 <p align="center">
@@ -33,7 +33,7 @@
 - Software engineer with experience in **Unity and C# application development**
 - Experienced in integrating interactive clients with backend and real-time communication systems
 - Interested in transforming engineering workflows into reproducible software systems
-- Currently working with **Python, PyTorch, numerical optimization, and physics-based modeling**
+- Experienced with **Python, TensorFlow, NumPy, and pandas** through engineering projects
 - Exploring **database systems, SQL, Linux, and infrastructure fundamentals**
 
 <br/>
@@ -42,44 +42,42 @@
 
 ### AI Thin-Film Inverse Design
 
-A reproducible public reconstruction of an internal AI inverse-design workflow.
+A reproducible public demonstration inspired by an internal AI inverse-design project.
 
-The original project used private simulation datasets, trained model artifacts, and license-specific solver integrations. This public implementation replaces those assets with a self-contained thin-film inverse design problem while preserving the same engineering workflow.
+The original project used private simulation datasets, proprietary solver integrations, and a TensorFlow-based modeling pipeline. This public version replaces those assets with a self-contained thin-film optical problem and uses PyTorch for the inverse model implementation.
 
-#### Key Features
+The implementation differs from the original project while preserving its core engineering workflow:
 
-- Generates synthetic thin-film spectra using the **transfer-matrix method**
-- Predicts layer thicknesses from target spectra using a **PyTorch 1D ResNet**
-- Refines AI-generated candidates using **Basin Hopping and L-BFGS-B**
-- Validates predicted structures through physics-based forward calculation
+**dataset generation → quality validation → inverse prediction → physics-based forward validation → numerical refinement → performance review**
+
+#### Engineering Highlights
+
+- Generates reproducible thin-film spectra using the **transfer-matrix method**
+- Uses a **PyTorch 1D ResNet** for spectrum-to-structure inverse prediction
+- Combines inverse prediction with **Basin Hopping + L-BFGS-B** numerical refinement
+- Validates predicted structures using physics-based forward calculation
 - Evaluates center wavelength, FWHM, peak reflectance, and SNR
-- Provides an end-to-end interactive workflow through a **Streamlit UI**
-- Recreates datasets, validation reports, and model artifacts locally
+- Provides an end-to-end workflow through a **Streamlit UI**
 
-#### Tech Stack
+#### Workflow
 
-<p>
-  <img
-    src="https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=white"
-    alt="Python"
-  />
-  <img
-    src="https://img.shields.io/badge/PyTorch-000000?style=flat-square&logo=pytorch&logoColor=white"
-    alt="PyTorch"
-  />
-  <img
-    src="https://img.shields.io/badge/NumPy-000000?style=flat-square&logo=numpy&logoColor=white"
-    alt="NumPy"
-  />
-  <img
-    src="https://img.shields.io/badge/pandas-000000?style=flat-square&logo=pandas&logoColor=white"
-    alt="pandas"
-  />
-  <img
-    src="https://img.shields.io/badge/Streamlit-000000?style=flat-square&logo=streamlit&logoColor=white"
-    alt="Streamlit"
-  />
-</p>
+```text
+Target Spectrum
+    ↓
+1D ResNet Inverse Model
+    ↓
+Initial Thin-Film Stack
+    ↓
+TMM Forward Validation
+    ↓
+Basin Hopping + L-BFGS-B
+    ↓
+Performance Review
+```
+
+#### Implementation
+
+**Python · PyTorch · NumPy · SciPy · pandas · Streamlit**
 
 <p>
   <a href="https://github.com/seungjelee01/ai-thinfilm-inverse-design">
@@ -99,11 +97,10 @@ The original project used private simulation datasets, trained model artifacts, 
 <!-- YYYY.MM – YYYY.MM -->
 
 * Developed and maintained interactive applications using **Unity and C#**
-* Implemented asynchronous client workflows using **UniTask**
-* Integrated clients with backend APIs and real-time communication systems
-* Worked with **WebRTC and Socket.IO** for real-time features
-* Contributed to frontend, backend, database, debugging, and maintenance tasks
-* Collaborated throughout feature implementation and issue resolution
+* Implemented asynchronous client logic with **UniTask**
+* Integrated Unity clients with backend APIs and real-time communication systems
+* Implemented real-time functionality using **WebRTC and Socket.IO**
+* Contributed across client, frontend, backend, and database layers
 
 > Production repositories and internal project details are not publicly available.
 
@@ -111,19 +108,82 @@ The original project used private simulation datasets, trained model artifacts, 
 
 ## Tech Stack
 
-### AI, Numerical Computing & Engineering
+### Languages
 
 <p>
+  <a href="https://learn.microsoft.com/en-us/dotnet/csharp/">
+    <img
+      src="https://img.shields.io/badge/C%23-000000?style=flat-square&logo=csharp&logoColor=white"
+      alt="C#"
+    />
+  </a>
   <a href="https://www.python.org/">
     <img
       src="https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=white"
       alt="Python"
     />
   </a>
-  <a href="https://pytorch.org/">
+  <a href="https://www.typescriptlang.org/">
     <img
-      src="https://img.shields.io/badge/PyTorch-000000?style=flat-square&logo=pytorch&logoColor=white"
-      alt="PyTorch"
+      src="https://img.shields.io/badge/TypeScript-000000?style=flat-square&logo=typescript&logoColor=white"
+      alt="TypeScript"
+    />
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+    <img
+      src="https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=white"
+      alt="JavaScript"
+    />
+  </a>
+</p>
+
+### Frontend
+
+<p>
+  <a href="https://unity.com/">
+    <img
+      src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white"
+      alt="Unity"
+    />
+  </a>
+  <a href="https://react.dev/">
+    <img
+      src="https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=white"
+      alt="React"
+    />
+  </a>
+  <a href="https://github.com/Cysharp/UniTask">
+    <img
+      src="https://img.shields.io/badge/UniTask-000000?style=flat-square"
+      alt="UniTask"
+    />
+  </a>
+</p>
+
+### Backend
+
+<p>
+  <a href="https://dotnet.microsoft.com/">
+    <img
+      src="https://img.shields.io/badge/.NET-000000?style=flat-square&logo=dotnet&logoColor=white"
+      alt=".NET"
+    />
+  </a>
+  <a href="https://nestjs.com/">
+    <img
+      src="https://img.shields.io/badge/NestJS-000000?style=flat-square&logo=nestjs&logoColor=white"
+      alt="NestJS"
+    />
+  </a>
+</p>
+
+### AI & Machine Learning
+
+<p>
+  <a href="https://www.tensorflow.org/">
+    <img
+      src="https://img.shields.io/badge/TensorFlow-000000?style=flat-square&logo=tensorflow&logoColor=white"
+      alt="TensorFlow"
     />
   </a>
   <a href="https://numpy.org/">
@@ -136,35 +196,6 @@ The original project used private simulation datasets, trained model artifacts, 
     <img
       src="https://img.shields.io/badge/pandas-000000?style=flat-square&logo=pandas&logoColor=white"
       alt="pandas"
-    />
-  </a>
-  <a href="https://streamlit.io/">
-    <img
-      src="https://img.shields.io/badge/Streamlit-000000?style=flat-square&logo=streamlit&logoColor=white"
-      alt="Streamlit"
-    />
-  </a>
-</p>
-
-### Client Development
-
-<p>
-  <a href="https://unity.com/">
-    <img
-      src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white"
-      alt="Unity"
-    />
-  </a>
-  <a href="https://learn.microsoft.com/en-us/dotnet/csharp/">
-    <img
-      src="https://img.shields.io/badge/C%23-000000?style=flat-square&logo=csharp&logoColor=white"
-      alt="C#"
-    />
-  </a>
-  <a href="https://github.com/Cysharp/UniTask">
-    <img
-      src="https://img.shields.io/badge/UniTask-000000?style=flat-square"
-      alt="UniTask"
     />
   </a>
 </p>
@@ -186,30 +217,7 @@ The original project used private simulation datasets, trained model artifacts, 
   </a>
 </p>
 
-### Web Development
-
-<p>
-  <a href="https://react.dev/">
-    <img
-      src="https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=white"
-      alt="React"
-    />
-  </a>
-  <a href="https://www.typescriptlang.org/">
-    <img
-      src="https://img.shields.io/badge/TypeScript-000000?style=flat-square&logo=typescript&logoColor=white"
-      alt="TypeScript"
-    />
-  </a>
-  <a href="https://nestjs.com/">
-    <img
-      src="https://img.shields.io/badge/NestJS-000000?style=flat-square&logo=nestjs&logoColor=white"
-      alt="NestJS"
-    />
-  </a>
-</p>
-
-### Data & Messaging
+### Database
 
 <p>
   <a href="https://www.mysql.com/">
@@ -218,10 +226,10 @@ The original project used private simulation datasets, trained model artifacts, 
       alt="MySQL"
     />
   </a>
-  <a href="https://kafka.apache.org/">
+  <a href="https://www.mongodb.com/">
     <img
-      src="https://img.shields.io/badge/Apache_Kafka-000000?style=flat-square&logo=apachekafka&logoColor=white"
-      alt="Apache Kafka"
+      src="https://img.shields.io/badge/MongoDB-000000?style=flat-square&logo=mongodb&logoColor=white"
+      alt="MongoDB"
     />
   </a>
 </p>
@@ -256,28 +264,6 @@ The original project used private simulation datasets, trained model artifacts, 
 * Relational database architecture
 * SQL and data modeling
 * Linux system administration
-* Database operation, backup, recovery, and performance concepts
-* Reliable backend and infrastructure design
+* Database administration, backup, recovery, and performance fundamentals
+* Backend and infrastructure fundamentals
 
-<br/>
-
-## GitHub Activity
-
-<p align="center">
-  <a href="https://github.com/seungjelee01">
-    <img
-      src="https://github-readme-streak-stats.herokuapp.com/?user=seungjelee01&theme=github-dark&hide_border=true"
-      alt="GitHub contribution streak"
-    />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/seungjelee01?tab=repositories">
-    View repositories
-  </a>
-  ·
-  <a href="https://github.com/seungjelee01?tab=overview">
-    View contribution activity
-  </a>
-</p>
